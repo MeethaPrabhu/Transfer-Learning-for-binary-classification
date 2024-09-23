@@ -8,15 +8,15 @@ To Implement Transfer Learning for Horses_vs_humans dataset classification using
 </br>
 
 ## DESIGN STEPS
-### STEP 1:
-</br>
+### Step 1:
+Load and prepare image data for training and validation.
+### Step 2:
+Build a model using pre-trained InceptionV3 with additional layers for binary classification.
+### Step 3:
+Train the model on the data and stop early when accuracy reaches 97%.
+### Step 4:
+Plot the accuracy and loss for both training and validation.
 
-### STEP 2:
-</br>
-
-### STEP 3:
-
-Write your own steps
 <br/>
 
 ## PROGRAM
@@ -266,14 +266,7 @@ plt.figure()
 
 plt.show()
 
-
-
-
-
-
-
 ```
-
 
 ## OUTPUT
 ### Training Accuracy, Validation Accuracy Vs Iteration Plot
@@ -290,11 +283,11 @@ plt.show()
 </br>
 
 ### Conclusion
+![image](https://github.com/user-attachments/assets/7f831d59-0f97-4d73-8809-440d355a253c)
+
 </br>
 </br>
 </br>
 
 ## RESULT
-</br>
-</br>
-</br>
+Thus, transfer learning for classifying horses and human is implemented successfully
